@@ -19,23 +19,6 @@ I also completed BA courses to better understand the business side of projects, 
 * Business Process Modeling (UML, BPMN)
 * Prototyping (Axure RP, Balsamiq)
 
-## Code Examples:
-```javascript
-function toggleCheckbox() {
-    const checkbox = document.querySelectorAll('.filter-check_checkbox');
-
-    checkbox.forEach( function(element) {
-        element.addEventListener('change', function() {
-            if (this.checked){
-                this.nextElementSibling.classList.add('checked');
-            } else {
-                this.nextElementSibling.classList.remove('checked');
-            }
-        });
-    });
-}
-```
-
 ## Education
 * BSUIR (FINO, Digital marketing, graduation year - 2020)
 * Educational Center of HTP Belarus (completed BA course at 2018)
