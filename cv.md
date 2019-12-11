@@ -1,6 +1,5 @@
 # LEONID TRUBCHIK
-### Junior Front-end Developer
-###### Minsk
+###### Junior Front-end Developer, Minsk
 
 ## Contacts:
 * Phone № / Telegram / Viber: **+375299707015**
@@ -20,9 +19,8 @@ I also completed BA courses to better understand the business side of projects, 
 * Prototyping (Axure RP, Balsamiq)
 
 ## Education
-* BSUIR (FINO, Digital marketing, graduation year - 2020)
+* BSUIR (FINO, Digital marketing, graduation year - 2021)
 * Educational Center of HTP Belarus (completed BA course at 2018)
-* Js workshops by Glo Academy
 
 ## English
-B1. Freely reading technical literature, speaking is less. Study at school, university, took a lessons with a tutor.
+A2. Freely reading technical literature, speaking is less. Study at school, university, took a lessons with a tutor.
