@@ -12,9 +12,12 @@ Every day I learn something new and improve myself. I like to write code and I d
 I also completed BA courses to better understand the business side of projects, and also to understand how the development team works.
 
 ## Skills:
-* HTML5/CSS3/Js
+* Attention to details
+* HTML5, CSS3(Flexbox, Grid)
+* Javascript (ES5/ES6)
 * Git (Basic)
 * Basic knowledge C++ and Java
+* Theoretical knowledge of OOP
 * Business Process Modeling (UML, BPMN)
 * Prototyping (Axure RP, Balsamiq)
 
