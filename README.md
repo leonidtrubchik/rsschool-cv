@@ -1,1 +1,1 @@
-https://leonidtrubchik.github.io/cv
+https://leonidtrubchik.github.io/CV/cv
