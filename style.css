@@ -1,7 +1,44 @@
+main {
+    margin: auto 60px;
+    
+}
+
 .content {
-    background: #a7a7a7;
+    background: #dfdede;
     width: 1024px;
-    height: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 60px auto;
+    padding: 50px;
+    display: flex;
+    
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+.sidebar {
+    justify-content: center;
+    
+}
+
+.vocation {
+    margin: 10px auto;
+}
+
+.header-info > *{
+    
+}
+
+.contacts {
+    padding: 0;
+}
+
+ul.contacts li {
+    color: red;
+    list-style: none;
+    
+}
+
+.summary {
+    margin-top: 0;
 }
