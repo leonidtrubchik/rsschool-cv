@@ -12,16 +12,17 @@
     <div class="content">
         
         <aside class="sidebar">
-            <img class="photo" src="./img/photo.jpeg" width="180" alt="Leonid Trubchik">
+
+            <img class="photo" src="./img/photo.jpeg" width="180" alt="Photo">
 
             <div class="header-info">
                 <h1>Trubchik Leonid</h1>
                 <h3 class="vocation">Junior Front-end Developer</h3>
                 <span>Minsk, Belarus</span>
                 <ul class="contacts">
-                    <li> <a href="">+375299707015</a> </li>
-                    <li> <a href="">leon.d.e@mail.ru</a> </li>
-                    <li> <a href="">gesserdr</a></li>
+                    <li> +375299707015 </li>
+                    <li> leon.d.e@mail.ru </li>
+                    <li> @gesserdr</li>
                 </ul>
             </div>
 
@@ -49,12 +50,36 @@
                 </ul>
             </section>
 
-            <section><h2>Examples</h2></section>
+            <section>
+                <h2>Code Examples</h2>
+                <figure>
+                    <figcaption>Code Example from typical-arrays-problems task:</figcaption>
+                    <pre class="code-example-first">
+                        <code>
+                            exports.avg = function avg (array) {
+                                if (Array.isArray(array) && array.length > 0) {
+                              
+                                  let sum = 0
+                                  for (let i = 0; i < array.length; i++) {
+                                    sum += array[i]
+                                  }
+                                  return sum / array.length
+                                  
+                                }
+                                else {
+                                  return 0
+                                }
+                              }
+                        </code>
+                    </pre>
+                </figure>
+
+            </section>
 
             <section>
                 <h2>Education</h2>
                 <ul>
-                    <li>BSUIR (FINO, Digital marketing, graduation year - 2021)</li>
+                    <li>BSUIR (FINO, Digital marketing, graduation year - 2022)</li>
                     <li>Educational Center of HTP Belarus (completed BA course at 2018)</li>
                 </ul>
             </section>

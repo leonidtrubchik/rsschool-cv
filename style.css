@@ -25,20 +25,20 @@ main {
     margin: 10px auto;
 }
 
-.header-info > *{
-    
-}
-
 .contacts {
     padding: 0;
 }
 
 ul.contacts li {
-    color: red;
+    color: rgb(30, 39, 92);
     list-style: none;
     
 }
 
 .summary {
     margin-top: 0;
+}
+
+.code-example-first {
+    background: rgb(199, 194, 214);
 }
