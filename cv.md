@@ -17,3 +17,10 @@ I also completed BA courses to better understand the business side of projects, 
 * Git (Basic)
 * Business Process Modeling (UML, BPMN)
 * Prototyping (Axure RP, Balsamiq)
+
+## Education
+* BSUIR (FINO, Digital marketing, graduation year - 2023)
+* Educational Center of HTP Belarus (completed BA course at 2018)
+
+## English
+A2. Freely reading technical literature, speaking is less. Study at school, university, took a lessons with a tutor.
