@@ -1,0 +1,94 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    margin: auto 60px;
+    
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.content {
+    background: #dfdede;
+    width: 1024px;
+    margin: 60px auto;
+    padding: 50px;
+    display: flex;
+    
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+.sidebar {
+    justify-content: center;
+    
+}
+
+
+
+.vocation {
+    margin: 10px auto;
+    font-size: 1em;
+}
+
+.location {
+    font-size: 0.9em;
+}
+
+.underline {
+    width: 100%;
+    height: 0.05rem;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    background-color: rgb(30, 39, 92);
+}
+
+.contacts {
+    padding: 0;
+    font-size: 1em;
+}
+
+ul.contacts li {
+    color: rgb(30, 39, 92);
+    list-style: none;
+    
+}
+
+.contacts__phone::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f095";
+}
+
+.contacts__telegram::before {
+    font-family: "Font Awesome 5 Brands"; 
+    font-weight: 900; 
+    content: "\f2c6";
+}
+
+.contacts__email::before {
+    
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f0e0";
+}
+
+.contacts__skype::before {
+    font-family: "Font Awesome 5 Brands"; 
+    font-weight: 900; 
+    content: "\f17e";
+}
+
+.summary {
+    margin-top: 0;
+}
+
+.code-example-first {
+    background: rgb(199, 194, 214);
+}
