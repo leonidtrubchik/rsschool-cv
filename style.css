@@ -14,13 +14,35 @@ h2 {
 
 a {
     text-decoration: none;
-    color: rgb(30, 39, 92);
+    color: rgb(150, 150, 150);
+    transition: .3s;
+}
+
+a:hover {
+    color:rgb(0, 0, 0)
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 0 20px;
+    margin: 20px auto;
+}
+
+.nav__item {
+    color: rgb(150, 150, 150);
 }
 
 .content {
     background: #dfdede;
-    width: 1024px;
-    margin: 60px auto;
+    margin: auto auto;
     padding: 50px;
     display: flex;
 }
@@ -31,7 +53,6 @@ a {
 
 .sidebar {
     justify-content: center;
-    
 }
 
 .vocation {
@@ -57,9 +78,18 @@ a {
 }
 
 ul.contacts li {
-    color: rgb(30, 39, 92);
+    color: rgb(150, 150, 150);
     list-style: none;
     
+}
+
+.contacts__email {
+    transition: .3s;
+}
+
+.contacts__email:hover {
+    color:rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .contacts__phone::before {

@@ -13,11 +13,25 @@
 
     <div class="wrapper">
 
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#summary" class="nav-item__link">About Me</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav-item__link">Skills</a></li>
+                    <li class="nav__item"><a href="#code" class="nav-item__link">Code Examples</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav-item__link">Projects</a></li>
+                    <li class="nav__item"><a href="#education" class="nav-item__link">Education</a></li>
+                    <li class="nav__item"><a href="#languages" class="nav-item__link">Languages</a></li>
+                    <li class="nav__item"><a href="#contacts" class="nav-item__link">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+
         <div class="content">
 
             
             <aside class="sidebar">
-                <img class="photo" src="./img/photo.jpeg" width="180" alt="Photo">
+                <img class="photo" id="contacts" src="./img/photo.jpeg" width="180" alt="Photo">
 
                 <div class="header-info">
                     <h1>Leonid Trubchik</h1>
@@ -25,8 +39,8 @@
                     <span class="location">Tbilisi, Georgia</span>
                     <div class="underline"></div>
                     <ul class="contacts">
-                        <li class="contacts__phone"> +995555779805 </li>
-                        <li class="contacts__telegram"> @gesserdr</li>
+                        <li class="contacts__phone"> <a href="">+995555779805</a> </li>
+                        <li class="contacts__telegram"> <a href="">@gesserdr</a></li>
                         <li class="contacts__email">trubchik.leonid@gmail.com</li>
                         <li class="contacts__linkedin"> <a href="https://linkedin.com/in/leonid-trubchik">Leonid Trubchik</a></li>
                     </ul>
@@ -37,7 +51,7 @@
             <main>
 
                 <section>
-                    <h2 class="summary">Summary</h2>
+                    <h2 class="summary" id="summary">Summary</h2>
                     <div class="underline"></div>
                     <p>Hi! I have recently moved from Minsk (Belarus) to Tbilisi. 
                         I am looking for a job as a frontend developer, remotely or in the office. 
@@ -47,7 +61,7 @@
                 </section>
 
                 <section>
-                    <h2>Skills</h2>
+                    <h2 id="skills">Skills</h2>
                     <div class="underline"></div>
                     <ul>
                         <li>HTML, CSS(Flexbox, Grid)</li>
@@ -60,7 +74,7 @@
                 </section>
 
                 <section>
-                    <h2>Code Examples</h2>
+                    <h2 id="code">Code Examples</h2>
                     <div class="underline"></div>
                     <figure>
                         <figcaption>Code Example from typical-arrays-problems task:</figcaption>
@@ -85,7 +99,7 @@
                 </section>
 
                 <section>
-                    <h2>Projects</h2>
+                    <h2 id="projects">Projects</h2>
                     <div class="underline"></div>
                     <ul>
                         <li><a href="https://rolling-scopes-school.github.io/leonidtrubchik-JSFEPRESCHOOL2022Q2/travel/">Travel</a></li>
@@ -95,7 +109,7 @@
                 </section>
 
                 <section>
-                    <h2>Education</h2>
+                    <h2 id="education">Education</h2>
                     <div class="underline"></div>
                     <ul>
                         <li>BSUIR (FINO, Digital marketing, graduation year - 2023)</li>
@@ -103,9 +117,9 @@
                     </ul>
                 </section>
                 <section>
-                    <h2>English</h2>
+                    <h2 id="languages">Languages</h2>
                     <div class="underline"></div>
-                    <p>B1. Take a lessons with a tutor.</p>
+                    <p><strong>English</strong> - B1. Take a lessons with a tutor.</p>
                 </section>
             </main>
         </div>
