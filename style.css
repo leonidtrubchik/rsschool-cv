@@ -2,6 +2,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    margin: 0 0;
+}
+
 main {
     margin: auto 60px;
     
@@ -123,4 +127,36 @@ ul.contacts li {
 
 .code-example-first {
     background: rgb(199, 194, 214);
+    font-family: monospace, monospace;
+}
+
+.code {
+    font-family: monospace, monospace;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.github-link {
+    background-image: url(./assets/svg/github.svg);
+    width: 50px;
+    height: 50px;
+}
+
+.rsschool-link {
+    background-image: url(./assets/svg/rsschool.svg);
+    width: 125px;
+}
+
+.social-icon {
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.social-icon:hover {
+    opacity: .7;
 }

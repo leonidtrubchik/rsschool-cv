@@ -31,7 +31,7 @@
 
             
             <aside class="sidebar">
-                <img class="photo" id="contacts" src="./img/photo.jpeg" width="180" alt="Photo">
+                <img class="photo" id="contacts" src="./assets/img/photo.jpeg" width="180" alt="Photo">
 
                 <div class="header-info">
                     <h1>Leonid Trubchik</h1>
@@ -41,7 +41,7 @@
                     <ul class="contacts">
                         <li class="contacts__phone"> <a href="">+995555779805</a> </li>
                         <li class="contacts__telegram"> <a href="">@gesserdr</a></li>
-                        <li class="contacts__email">trubchik.leonid@gmail.com</li>
+                        <li class="contacts__email">&#160trubchik.leonid@gmail.com</li>
                         <li class="contacts__linkedin"> <a href="https://linkedin.com/in/leonid-trubchik">Leonid Trubchik</a></li>
                     </ul>
                 </div>
@@ -79,19 +79,19 @@
                     <figure>
                         <figcaption>Code Example from typical-arrays-problems task:</figcaption>
                         <pre class="code-example-first">
-                            <code>
-                                exports.avg = function avg (array) {
-                                    if (Array.isArray(array) && array.length > 0) {
-                                
-                                        let sum = 0
-                                        for (let i = 0; i &lt array.length; i++) {
-                                            sum += array[i]
-                                        }
-                                        return sum / array.length
-                                    } else {
-                                        return 0
-                                    }
-                                }
+                            <code class="code">
+    exports.avg = function avg (array) {
+        if (Array.isArray(array) && array.length > 0) {
+    
+            let sum = 0
+            for (let i = 0; i &lt array.length; i++) {
+                sum += array[i]
+            }
+            return sum / array.length
+        } else {
+            return 0
+        }
+    }
                             </code>
                         </pre>
                     </figure>
@@ -112,6 +112,7 @@
                     <h2 id="education">Education</h2>
                     <div class="underline"></div>
                     <ul>
+                        <li>RSSchool (Javascript/Front-end 2022Q2)</li>
                         <li>BSUIR (FINO, Digital marketing, graduation year - 2023)</li>
                         <li>Educational Center of HTP Belarus (completed BA course at 2018)</li>
                     </ul>
@@ -119,10 +120,20 @@
                 <section>
                     <h2 id="languages">Languages</h2>
                     <div class="underline"></div>
-                    <p><strong>English</strong> - B1. Take a lessons with a tutor.</p>
+                    <ul>
+                        <li><strong>English</strong> - B1. Take a lessons with a tutor.</li>
+                        <li><strong>Belarusian</strong> - Native</li>
+                        <li><strong>Russian</strong> - Native</li>
+                    </ul>
                 </section>
             </main>
         </div>
+
+        <footer class="footer">
+            <a href="https://github.com/leonidtrubchik" class="github-link social-icon"></a>
+            <p class="author">© 2022 Leonid Trubchik</p>
+            <a href="https://rs.school/js/" class="rsschool-link social-icon"></a>
+        </footer>
     </div>
 </body>
 </html>
