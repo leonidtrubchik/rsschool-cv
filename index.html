@@ -41,7 +41,7 @@
                     <ul class="contacts">
                         <li class="contacts__phone"> <a href="tel:995555779805">+995555779805</a> </li>
                         <li class="contacts__telegram"> <a href="https://t.me/gesserdr" target="_blank">@gesserdr</a></li>
-                        <li class="contacts__email"><a href="mailto:trubchik.leonid@gmail.com">&#160trubchik.leonid@gmail.com</a></li>
+                        <li class="contacts__email"><a href="mailto:trubchik.leonid@gmail.com">&#160;trubchik.leonid@gmail.com</a></li>
                         <li class="contacts__linkedin"> <a href="https://linkedin.com/in/leonid-trubchik" target="_blank">Leonid Trubchik</a></li>
                     </ul>
                 </div>
@@ -80,11 +80,11 @@
                         <figcaption>Code Example from Notes project:</figcaption>
                         <pre class="code-example-first">
                             <code class="code">
-    startEdit = () => {
+    startEdit = () =&gt; {
         this.setState({isEdit: true});
     }
     
-    stopEdit = () => {
+    stopEdit = () =&gt; {
         let {title, text} = this.state;
         let { onChange } = this.props;
     
@@ -94,7 +94,7 @@
                 text: text
             })
 
-            onChange && onChange();
+            onChange &amp;&amp; onChange();
         }
 
         this.setState({isEdit: false, title:'',text:''});
@@ -138,9 +138,9 @@
         </div>
 
         <footer class="footer">
-            <a href="https://github.com/leonidtrubchik" class="github-link social-icon"></a>
+            <!--<a href="https://github.com/leonidtrubchik" class="github-link social-icon"></a> -->
             <p class="author">© 2022 Leonid Trubchik</p>
-            <a href="https://rs.school/js/" class="rsschool-link social-icon"></a>
+            <!--<a href="https://rs.school/js/" class="rsschool-link social-icon"></a> -->
         </footer>
     </div>
 </body>
